@@ -1,5 +1,10 @@
 from datetime import date
 data_de_hoje = date.today().year
+genero = input('''Olá, sou parte do grupo do alistamento militar, 
+primeiramente precisamos saber seu gênero (Homem ou Mulher)''').upper()
+if genero == "MULHER":
+    print("Moça, vc n precisa se alistar ao exercito, mas obrigado por comparecer")
+    exit()
 nascimento = int(input("Qual é o ano do seu nascimento? "))
 idade = data_de_hoje - nascimento
 militar = input("Você ja serviu ao exercito? RESPONDA COM SIM OU NÃO ").upper()
