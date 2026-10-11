@@ -8,9 +8,9 @@ while cont < 11:
 continuar = input("Deseja continuar com mais 5? [S/N] ").upper()
 
 if continuar == "S":
-    cont = 1
-    while cont < 6:
+    while cont < 16:
         termo = ptermos + (cont -1) * razao
         cont += 1
         print(termo)
+continuar = input("Deseja continuar com mais 5? [S/N] ").upper()
 
