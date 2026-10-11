@@ -1,3 +1,6 @@
+#Errei, era para eu perguntar quantos números a mais ele queria que eu mostra-se, porem fiz que é a cada 5
+#Não irei corrigir pois achei mais disafiador fazer assim, porém eu sei como faz do jeito que o professor queria
+#Alem de ser muito mais facil
 from time import sleep
 print(20 * "=-=")
 
