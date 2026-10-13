@@ -6,7 +6,13 @@ while True:
         print(20 * "=-=")
         idade = int(input("Digite sua idade: "))
         sexo = str(input("Digite seu sexo [M/F]: ")).upper().strip()[0]
+        while sexo not in "MF":
+            sexo = str(input("Digite seu sexo [M/F]: ")).upper().strip()[0]
         continuar = str(input("Quer continuar? [S/N] ")).upper().strip()[0]
+
+        while continuar != "S" and continuar != "N":
+            continuar = str(input("Quer continuar? [S/N] ")).upper().strip()[0]
+
         if idade > 18:
             pessoas += 1
         else:
