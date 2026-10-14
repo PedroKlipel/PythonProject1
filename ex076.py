@@ -6,6 +6,7 @@ n4 = int(input("Digite o ultimo número: "))
 tot = n1, n2, n3, n4
 q = (tot.count(9))
 print(20 * "-=-")
+print(f"Você digitou os números {tot}")
 print(f"O número 9 apareceu {q} vezes")
 for un, nan in enumerate(tot):
     if nan == 3:
