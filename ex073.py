@@ -6,5 +6,9 @@ while True:
         n = int(input("Tente novamente, Digite um número de 0 a 20: "))
     len(ext)
     print(f"Você digitou o numero, {ext[n]}")
-    break
+    continuar =  " "
+    while continuar not in "SN":
+        continuar = str(input("Quer continuar? [S/N] ")).strip().upper()[0]
+    if continuar == "N":
+        break
 print("{:-^20}".format("Fim do Programa"))
